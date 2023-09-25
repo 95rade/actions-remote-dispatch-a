@@ -2,6 +2,7 @@ name: Remote Dispatch Action Initiator
 
 on:
   push:
+  workflow_dispatch:
   schedule:
     - cron: '0 12 * * *'
   repository_dispatch:
